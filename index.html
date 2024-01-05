@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ROT13 Шифровальщик/Дешифровальщик</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h2>ROT13 Шифровальщик/Дешифровальщик</h2>
+  <label for="inputText">Введите текст:</label>
+  <textarea id="inputText" placeholder="Введите ваш текст здесь(ENG)"></textarea>
+  <button onclick="encode()">Зашифровать</button>
+  <button onclick="decode()">Дешифровать</button>
+  <button onclick="clearFields()">Очистить</button>
+  <label for="outputText">Результат:</label>
+  <textarea id="outputText" readonly placeholder="Результат будет здесь"></textarea>
+</body>
+</html>
